@@ -1,0 +1,4 @@
+command /ticket [<string>]:
+    trigger:
+        if arg-1 is not set:
+            message "&cCorrect usage: /ticket <action>"
